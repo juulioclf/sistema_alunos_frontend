@@ -48,8 +48,6 @@ export function AuthProvider({ children }: any) {
 
     const {access_token, name}:any = request
 
-    console.log(access_token)
-
     setCookie(undefined, 'nextauth.token', access_token)
 
     api.defaults.headers['Authorization'] = `Bearer ${access_token}`;

@@ -1,6 +1,4 @@
-// import { LockClosedIcon } from '@heroicons/react/16/solid'
 import Head from 'next/head'
-import { useForm } from 'react-hook-form'
 
 
 export default function Home() {

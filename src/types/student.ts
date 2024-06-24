@@ -1,4 +1,3 @@
-// types/types.ts
 export interface Student {
     id: string;
     registration: string;

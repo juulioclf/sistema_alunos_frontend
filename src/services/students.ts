@@ -36,8 +36,3 @@ export async function createStudent(data: StudentRequestData) {
 
   return request.data
 }
-
-// export async function recoverUserInformation() {
-//   const response = await api.get('/me');
-//   return response.data;
-// }
